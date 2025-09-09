@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog | Premium Functional Dog Treats</title>
+    <meta name="description" content="Explore our complete collection of premium functional dog treats designed for your pet's health and wellness.">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1><a href="index.html" style="text-decoration: none; color: inherit;">PureTreats</a></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="catalog.html" class="nav-link active">Products</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 80px;">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1>Our Product Collection</h1>
+                    <p>Premium functional treats crafted for your dog's specific health needs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-container">
+                    <h3>Filter by Benefits</h3>
+                    <div class="filter-options">
+                        <button class="filter-btn active" data-filter="all">All Products</button>
+                        <button class="filter-btn" data-filter="wellness">Daily Wellness</button>
+                        <button class="filter-btn" data-filter="joint">Joint Support</button>
+                        <button class="filter-btn" data-filter="calming">Calming</button>
+                        <button class="filter-btn" data-filter="skin">Skin & Coat</button>
+                        <button class="filter-btn" data-filter="digestive">Digestive Health</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-catalog">
+            <div class="container">
+                <div class="products-grid">
+                    <!-- Daily Wellness Products -->
+                    <div class="product-card" data-category="wellness">
+                        <div class="product-image">
+                            <img src="assets/images/daily-wellness-original.jpg" alt="Daily Wellness Original" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Daily Wellness Original</h3>
+                            <p>Complete nutrition support for everyday health and vitality</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Immune Support</span>
+                                <span class="benefit-tag">Energy Boost</span>
+                            </div>
+                            <div class="product-price">$24.99</div>
+                            <button class="btn btn-notify" data-product="daily-wellness-original">Notify Me</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="wellness">
+                        <div class="product-image">
+                            <img src="assets/images/daily-wellness-senior.jpg" alt="Daily Wellness Senior" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Daily Wellness Senior</h3>
+                            <p>Specially formulated for senior dogs with enhanced support</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Senior Support</span>
+                                <span class="benefit-tag">Brain Health</span>
+                            </div>
+                            <div class="product-price">$27.99</div>
+                            <button class="btn btn-notify" data-product="daily-wellness-senior">Notify Me</button>
+                        </div>
+                    </div>
+
+                    <!-- Joint Support Products -->
+                    <div class="product-card" data-category="joint">
+                        <div class="product-image">
+                            <img src="assets/images/joint-support-advanced.jpg" alt="Joint Support Advanced" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Joint Support Advanced</h3>
+                            <p>Premium joint care with glucosamine and chondroitin</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Mobility</span>
+                                <span class="benefit-tag">Pain Relief</span>
+                            </div>
+                            <div class="product-price">$32.99</div>
+                            <button class="btn btn-notify" data-product="joint-support-advanced">Notify Me</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="joint">
+                        <div class="product-image">
+                            <img src="assets/images/joint-support-puppy.jpg" alt="Joint Support Puppy" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Joint Support Puppy</h3>
+                            <p>Early joint development support for growing puppies</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Growth Support</span>
+                                <span class="benefit-tag">Development</span>
+                            </div>
+                            <div class="product-price">$19.99</div>
+                            <button class="btn btn-notify" data-product="joint-support-puppy">Notify Me</button>
+                        </div>
+                    </div>
+
+                    <!-- Calming Products -->
+                    <div class="product-card" data-category="calming">
+                        <div class="product-image">
+                            <img src="assets/images/calming-blend-natural.jpg" alt="Calming Blend Natural" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Calming Blend Natural</h3>
+                            <p>Natural stress relief with chamomile and valerian root</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Stress Relief</span>
+                                <span class="benefit-tag">Natural</span>
+                            </div>
+                            <div class="product-price">$28.99</div>
+                            <button class="btn btn-notify" data-product="calming-blend-natural">Notify Me</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="calming">
+                        <div class="product-image">
+                            <img src="assets/images/calming-travel.jpg" alt="Calming Travel" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Calming Travel</h3>
+                            <p>Fast-acting relief for travel anxiety and motion sickness</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Travel Anxiety</span>
+                                <span class="benefit-tag">Fast-Acting</span>
+                            </div>
+                            <div class="product-price">$22.99</div>
+                            <button class="btn btn-notify" data-product="calming-travel">Notify Me</button>
+                        </div>
+                    </div>
+
+                    <!-- Skin & Coat Products -->
+                    <div class="product-card" data-category="skin">
+                        <div class="product-image">
+                            <img src="assets/images/skin-coat-omega.jpg" alt="Skin & Coat Omega" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Skin & Coat Omega</h3>
+                            <p>Rich in omega fatty acids for healthy skin and shiny coat</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Shiny Coat</span>
+                                <span class="benefit-tag">Omega-3</span>
+                            </div>
+                            <div class="product-price">$25.99</div>
+                            <button class="btn btn-notify" data-product="skin-coat-omega">Notify Me</button>
+                        </div>
+                    </div>
+
+                    <!-- Digestive Health Products -->
+                    <div class="product-card" data-category="digestive">
+                        <div class="product-image">
+                            <img src="assets/images/digestive-probiotic.jpg" alt="Digestive Probiotic" loading="lazy">
+                            <div class="product-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Digestive Probiotic</h3>
+                            <p>Gut health support with beneficial probiotics and prebiotics</p>
+                            <div class="product-benefits">
+                                <span class="benefit-tag">Gut Health</span>
+                                <span class="benefit-tag">Probiotics</span>
+                            </div>
+                            <div class="product-price">$29.99</div>
+                            <button class="btn btn-notify" data-product="digestive-probiotic">Notify Me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Section -->
+                <div class="load-more-section">
+                    <p>More products coming soon! Join our newsletter to be the first to know.</p>
+                    <a href="#newsletter" class="btn btn-outline">Subscribe to Updates</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter" id="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Never Miss a New Product</h2>
+                    <p>Get exclusive early access to new treats and special offers</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PureTreats</h3>
+                    <p>Premium functional dog treats crafted with love and science.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="catalog.html">All Products</a></li>
+                        <li><a href="#">Daily Wellness</a></li>
+                        <li><a href="#">Joint Support</a></li>
+                        <li><a href="#">Calming Blend</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PureTreats. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Coming Soon Modal -->
+    <div id="notify-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Get Notified</h2>
+            <p>Enter your email to be notified when this product becomes available.</p>
+            <form id="notify-form">
+                <input type="hidden" id="product-name" name="product">
+                <input type="email" id="notify-email" placeholder="Your email address" required>
+                <button type="submit" class="btn btn-primary">Notify Me</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/catalog.js"></script>
+</body>
+</html>
